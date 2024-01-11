@@ -6,6 +6,7 @@
 # virtual environment
 venv/
 ENV/
+.venv/
 
 # ignore all pdf creation files
 package.json
@@ -366,3 +367,7 @@ MigrationBackup/
 
 # Mac-specific
 .DS_Store
+
+#Data
+*.zip
+*.rar
